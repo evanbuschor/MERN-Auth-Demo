@@ -15,26 +15,22 @@
 	display: flex;
 }
 
-.nav__button {
-	color: inherit;
-	font-family: "Nunito", sans-serif;
-	font-size: inherit;
-	background-color: $color-nav;
-	border: none;
-
-	&:hover {
-		background-color: #1549f4;
-		text-shadow: 0px 0px 1px #333333;
-		cursor: pointer;
-	}
-}
-
 .nav__title {
 	font-family: "Pacifico", cursive;
-	background-color: #ffffff00;
-	color: $color-title;
+	// background-color: #ffffff00;
+	background: rgb(131, 58, 180);
+	background: linear-gradient(
+		30deg,
+		rgb(179, 98, 233) 10%,
+		rgb(248, 28, 28) 50%,
+		rgba(252, 176, 69, 1) 90%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	// color: $color-title;
 	align-self: center;
-	font-size: 30px;
+	font-size: 34px;
 	padding: 0px 6px 0px 6px;
-	text-shadow: 1px 1px 4px #242424c0;
+	// text-shadow: 1px 1px 4px #242424c0;
 }

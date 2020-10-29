@@ -1,0 +1,19 @@
+@import "variables.scss";
+
+.nav-link {
+	color: inherit;
+	font-family: "Nunito", sans-serif;
+	font-size: inherit;
+	background-color: $color-nav;
+	border: none;
+
+	&:hover {
+		background-color: #5c5c5c;
+		text-shadow: 0px 0px 1px #333333;
+		cursor: pointer;
+	}
+
+	&:focus {
+		border: none;
+	}
+}
