@@ -1,0 +1,54 @@
+@import "variables.scss";
+
+.login {
+	padding: 50px;
+	background-color: #ffffff00;
+	display: flex;
+	align-self: center;
+	margin-top: calc(30vh - 50px);
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px #00000038;
+	background-color: $color-nav;
+}
+
+.login__form {
+	background-color: inherit;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.login__input {
+	margin: 16px;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 10px;
+	outline: none;
+}
+
+.login__button {
+	border-radius: 20px;
+	background: rgb(131, 58, 180);
+	background: linear-gradient(
+		30deg,
+		rgb(179, 98, 233) 10%,
+		rgb(248, 28, 28) 50%,
+		rgba(252, 176, 69, 1) 90%
+	);
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px 40px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	transition: transform 40ms ease-in;
+	margin-top: 20px;
+	align-self: center;
+	&:focus {
+		outline: none;
+	}
+	&:active {
+		transform: scale(0.9);
+	}
+}

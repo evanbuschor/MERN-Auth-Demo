@@ -1,1 +1,6 @@
 @import "variables.scss";
+
+.app {
+	display: flex;
+	flex-direction: column;
+}

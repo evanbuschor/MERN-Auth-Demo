@@ -15,5 +15,9 @@
 
 	&:focus {
 		border: none;
+		outline: none;
+	}
+	&:active {
+		outline: none;
 	}
 }

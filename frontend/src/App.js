@@ -6,7 +6,7 @@ import Login from "./components/Pages/Login";
 
 function App() {
 	return (
-		<div className="App">
+		<div className="app">
 			<Nav />
 			<Switch>
 				<Route path="/auth/login">
