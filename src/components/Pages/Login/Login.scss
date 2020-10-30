@@ -45,6 +45,7 @@
 	transition: transform 40ms ease-in;
 	margin-top: 20px;
 	align-self: center;
+	cursor: pointer;
 	&:focus {
 		outline: none;
 	}

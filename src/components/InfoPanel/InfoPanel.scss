@@ -1,0 +1,54 @@
+@import "variables.scss";
+
+.info-panel {
+	display: flex;
+	justify-content: space-between;
+	background: rgb(131, 58, 180);
+	background: linear-gradient(
+		30deg,
+		rgba(179, 98, 233, 0.7) 10%,
+		rgba(248, 28, 28, 0.7) 50%,
+		rgba(252, 176, 69, 0.7) 90%
+	);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	box-shadow: 0 2px 8px #44444477;
+	transition-duration: 500ms;
+	transition-timing-function: ease-in-out;
+}
+
+.info-panel--open {
+	transform: translateX(calc(-100vw + 50px));
+	border-radius: 5px;
+}
+
+.info-panel__data {
+	background: none;
+	font-size: 15px;
+	padding-bottom: 2px;
+	letter-spacing: 1.2px;
+	font-weight: 400;
+	text-shadow: 0 0 3px #00000050;
+	margin: 0 5px;
+
+	& + .info-panel__data {
+		padding-left: 5px;
+		border-left: 1px solid rgba(0, 0, 0, 0.322);
+	}
+}
+.left {
+	background: none;
+}
+
+.right {
+	background: none;
+}
+
+.info-panel__arrow {
+	background: none;
+	padding-left: 9px;
+	cursor: pointer;
+	font-weight: 600;
+	padding-right: 5px;
+}
