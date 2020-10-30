@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1f884f40-9344-4ed1-881b-2ada102ef6c5/deploy-status)](https://app.netlify.com/sites/cocky-lumiere-8a6d04/deploys)
+
 # MERN Auth Starter
 
 *MERN Auth Starter* is a boilerplate project to provide JWT based authentication for Single Page applications. I found myself spending countless hours reading blog posts, authentication documentation, and watching tutorials with not much to show for it. The libraries and methodologies in this project aim to highlight what I found to be the best implementation I could come up with for providing basic user authentication for small to medium side projects.
