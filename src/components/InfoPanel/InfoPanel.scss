@@ -11,16 +11,17 @@
 		rgba(252, 176, 69, 0.7) 90%
 	);
 	position: absolute;
+	left: calc(-100vw + 50px);
 	bottom: 0;
 	width: 100%;
 	box-shadow: 0 2px 8px #44444477;
 	transition-duration: 500ms;
 	transition-timing-function: ease-in-out;
+	border-radius: 5px;
 }
 
 .info-panel--open {
-	transform: translateX(calc(-100vw + 50px));
-	border-radius: 5px;
+	transform: translateX(calc(100vw - 50px));
 }
 
 .info-panel__data {

@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./InfoPanel.scss";
 
 function InfoPanel() {
 	const [isOpen, setIsOpen] = useState(false);
 
+	useEffect(() => {
+		console.log(isOpen);
+	}, [isOpen]);
 	return (
 		<div
 			onClick={() => {
@@ -16,7 +19,7 @@ function InfoPanel() {
 				<span className="info-panel__data">Signed in: true</span>
 			</div>
 			<div className="right">
-				<div className="info-panel__arrow">{isOpen ? ">" : "<"}</div>
+				<div className="info-panel__arrow">{isOpen ? "<" : ">"}</div>
 			</div>
 		</div>
 	);
