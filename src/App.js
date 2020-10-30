@@ -1,4 +1,3 @@
-import { useContext } from "react";
 import { Switch, Route } from "react-router-dom";
 import "./App.scss";
 import Nav from "./components/Nav";

@@ -1,6 +1,5 @@
 import React from "react";
 import NavLink from "../NavLink";
-import { Link } from "react-router-dom";
 import "./Nav.scss";
 import Private from "./Private";
 import Public from "./Public";
